@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Root of application
   root "projects#index"
+
+  resources :projects
 end
