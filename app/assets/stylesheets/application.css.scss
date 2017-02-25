@@ -3,6 +3,10 @@
 @import "font-awesome";
 @import "projects";
 
+body {
+  padding-top: 70px;
+}
+
 header {
   position: relative;
   padding-bottom: 0px;
@@ -65,4 +69,8 @@ a.delete {
 
 .alert-alert {
   @extend .alert-danger;
+}
+
+form {
+  max-width: 500px;
 }
