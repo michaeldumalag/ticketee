@@ -4,5 +4,7 @@ Rails.application.routes.draw do
   # Root of application
   root "projects#index"
 
-  resources :projects
+  resources :projects do
+    resources :tickets
+  end
 end
